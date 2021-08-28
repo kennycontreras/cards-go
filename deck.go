@@ -54,5 +54,5 @@ func newDeckFromFile(filename string) deck {
 		os.Exit(1)
 	}
 	s := strings.Split(string(bs), ",")
-	return deck(s)
+	return deck(s) // type conversion
 }
